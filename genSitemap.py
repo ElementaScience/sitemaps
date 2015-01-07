@@ -30,7 +30,7 @@ class SiteMap:
 
         self.mainPage()
 
-        items = range(7, 37) # + [38]
+        items = range(7, 37) + [37]
 
         for i in items:
             self.aURL("""http://elementascience.org/article/info:doi/10.12952/journal.elementa.""" +
